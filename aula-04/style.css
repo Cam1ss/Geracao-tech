@@ -1,0 +1,21 @@
+h1 {
+    color: orange;
+}
+
+div {
+    background-color: #555231;
+    color: white;
+    width: 50%;
+    border: 5px solid #9c8c51;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div p {
+    text-align: justify;
+}
