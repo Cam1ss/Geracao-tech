@@ -1,0 +1,22 @@
+div {
+    width: 50%;
+}
+
+td {
+    border: 2px solid #f23144;
+}
+
+th {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Novo */
+}
+
+thead {
+    background-color: #f23144;
+    color: white;
+}
