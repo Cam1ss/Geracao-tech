@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Resert do CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header - cabeçalho */
@@ -33,5 +39,6 @@
     text-decoration: none;
     color: white;
     font-size: 22.4px;
+    font-weight: bold;
 }
 
