@@ -1,0 +1,37 @@
+/* Resert do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header - cabeçalho */
+.container-header-cabecalho {
+    background-color: #1a2b4b;
+    border-bottom: 22px solid #b68954;
+    display: flex;
+    justify-content: center;
+}
+
+.container-div-cabecalho {      
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0px;
+}
+
+.container-ul-cabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+}
+
+.container-ul-cabecalho li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22.4px;
+}
+
