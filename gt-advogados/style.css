@@ -11,12 +11,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header - cabeçalho */
+
+#menu {
+    display: none;
+    color: white;
+    font-size: 2rem;
+}
+
 .container-header-cabecalho {
     background-color: #1a2b4b;
     border-bottom: 1.5rem solid #b68954;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 100%;
 }
 
 .container-div-cabecalho {      
@@ -169,4 +186,165 @@ body {
 
 .card-especialidades img{
     width: 4.3rem;
+}
+
+/* Quem Somos */
+
+.container-section-quem-somos {
+    background-image: url("assets/banner-sobre-mim.png");
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    position: relative;
+    background-size: cover;
+}
+
+.container-section-quem-somos::before{
+    content: "";
+    background-color: #1a2b4b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.container-div-quem-somos{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    z-index: 2;
+}
+
+#foto-advogado{
+    width: 25rem;
+    height: 25rem;
+    border: 0.3rem solid #b68954;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.container-div-quem-somos h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 0.5rem solid #b68954;
+    padding-bottom: 1rem;
+}
+
+.container-article-quem-somos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+#ultima-frase-quem-somos {
+    font-weight: bold;
+}
+
+/* Depoimentos */
+
+.container-section-depoimentos {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.container-div-depoimentos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.container-div-depoimentos h2 {
+    font-size: 3rem;
+    color: #1a2b4b;
+}
+
+.container-cards-depoimentos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card-depoimentos{
+    border: 0.2rem solid #b68954;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20.6rem;
+    height: 26.75rem;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    position: relative;
+    color: #1a2b4b;
+}
+
+.container-cards-depoimentos h3 {
+      font-size: 1.4rem;
+}
+
+.card-depoimentos p {
+    font-size: 1.2rem;
+}
+
+.aspas {
+    width: 4.5rem;
+    position: absolute;
+    bottom: 25rem;
+}
+
+/* Footer - Rodapé */
+
+footer {
+    background-color: #b68954;
+    color: white;
+    text-align: center;
+    padding: 3rem 0; 
+    font-size: 1.3rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 1150px) {
+    .container-div-cabecalho {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    #logo-advogados{
+        width: 19rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-div-cabecalho {
+    flex-direction: row;
+}
+
+    .container-div-cabecalho ul{
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
 }
