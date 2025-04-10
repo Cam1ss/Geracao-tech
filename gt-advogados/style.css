@@ -444,12 +444,16 @@ footer {
 
     /* header - cabeçalho - Celular */
     .container-header-cabecalho {
-        border-bottom: 1rem solid #b68954;
+        border-bottom: 0.9rem solid #b68954;
+    }
+
+     #logo-advogados{
+        width: 14rem;
     }
 
     .container-div-cabecalho {
-    flex-direction: row;
-}
+    flex-direction: row;    
+    }
 
     .container-div-cabecalho ul{
         display: none;
@@ -462,7 +466,7 @@ footer {
     /* Banner Principal - Celular*/
         
     .container-section-banner-principal {
-        border-bottom: 1rem solid #b68954;
+        border-bottom: 0.9rem solid #b68954;
         padding: 3rem 0;
     }
 
@@ -480,47 +484,58 @@ footer {
     }
 
     .container-div-textos-banner-principal h1 {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
 
     .container-div-textos-banner-principal p {
-        color: white;
-        font-size: 1.3rem;
-        font-weight: 300;
+        font-size: 1.1rem;
         text-align: center;
     }
 
     .btn-wpp {
-        font-size: 1.3rem;
-    }
-
-    .btn-wpp:hover {
-        background-color: #b3926c;
+        font-size: 1rem;
     }
 
     #estatua-justica{
-        width: 20rem;
+        width: 18rem;
     }
 
     /* Especialidades - Celular */
 
     .container-section-especialidades {
         justify-content: center;
-        padding: 4rem 0;
+        padding: 3rem 0;
     }
 
     .container-div-especialidades {
         width: 80%;
-        gap: 5rem;
+        gap: 4rem;
     }
 
     .container-div-especialidades h2 {
-        font-size: 3rem;
+        font-size: 2rem;
         color: #1a2b4b;
     }
 
     .container-cards-especialidades {
         justify-content: center;
+    }
+
+    .card-especialidades {
+    border: 0.2rem solid #b68954;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    color: #1a2b4b;
+    }
+
+    .card-especialidades p {
+        font-size: 0.9rem;
     }
 
     .card-especialidades img{
@@ -534,27 +549,76 @@ footer {
     }
 
     #foto-advogado{
-        width: 20rem;
-        height: 20rem;
+        width: 18rem;
+        height: 18rem;
     }
 
     .container-div-quem-somos h2 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .container-article-quem-somos {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     /* Depoimentos - Celular */
+
+    .container-section-depoimentos {
+        padding: 3rem 0;
+    }
 
     .container-div-depoimentos {
         gap: 6em;
     }
 
+    .container-div-depoimentos h2 {
+        font-size: 2rem;
+    }
+
     .container-cards-depoimentos {
         justify-content: center;
         gap: 6rem;
+    }
+
+    .container-cards-depoimentos h3 {
+      font-size: 1.2rem;
+    }
+
+    .card-depoimentos{
+    width: 19rem;
+    height: 23rem;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    color: #1a2b4b;
+    }
+
+
+    .card-depoimentos p {
+        font-size: 1rem;
+    }
+
+    .aspas {
+        width: 4.5rem;
+        position: absolute;
+        bottom: 21.5rem;
+    }
+
+    .usuario {
+        margin-top: 1rem;
+        width: 6.2rem;
+    }
+
+    .estrelas {
+        width: 9rem;
+    }
+
+    /* Footer - Rodapé - Celular */
+
+    footer {
+        padding: 2rem 0; 
+        font-size: 1rem;
     }
 
 
