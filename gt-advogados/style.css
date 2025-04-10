@@ -324,6 +324,11 @@ footer {
 /* Responsividade */
 
 @media (max-width: 1150px) {
+
+    .container-header-cabecalho {
+        border-bottom: 1rem solid #b68954;
+    }
+
     .container-div-cabecalho {
         flex-direction: column;
         gap: 2rem;
@@ -333,9 +338,115 @@ footer {
     #logo-advogados{
         width: 19rem;
     }
+
+    /* Banner Principal - Tablet */
+        
+    .container-section-banner-principal {
+        border-bottom: 1rem solid #b68954;
+        padding: 3rem 0;
+    }
+
+    .container-div-banner-principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .container-div-textos-banner-principal{
+        flex-direction: column;
+        gap: 2.3rem;
+        align-items: center;
+        width: 90%;
+    }
+
+    .container-div-textos-banner-principal h1 {
+        font-size: 2.5rem;
+    }
+
+    .container-div-textos-banner-principal p {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .btn-wpp {
+        font-size: 1.5rem;
+    }
+
+    .btn-wpp:hover {
+        background-color: #b3926c;
+    }
+
+    #estatua-justica{
+        width: 23rem;
+    }
+
+    /* Especialidades - Tablet */
+
+    .container-section-especialidades {
+        justify-content: center;
+        padding: 4rem 0;
+    }
+
+    .container-div-especialidades {
+        width: 80%;
+        gap: 5rem;
+    }
+
+    .container-div-especialidades h2 {
+        font-size: 3rem;
+        color: #1a2b4b;
+    }
+
+    .container-cards-especialidades {
+        justify-content: center;
+    }
+
+    .card-especialidades img{
+        width: 4.3rem;
+    }
+
+    /* Quem Somos - Tablet */
+
+    .container-section-quem-somos {
+    padding: 5rem 0;
+    }
+
+    #foto-advogado{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .container-div-quem-somos h2 {
+        font-size: 2.3rem;
+    }
+
+    .container-article-quem-somos {
+        font-size: 1.3rem;
+    }
+
+    /* Depoimentos - Tablet */
+
+    .container-div-depoimentos {
+        gap: 6em;
+    }
+
+    .container-cards-depoimentos {
+        justify-content: center;
+        gap: 6rem;
+    }
+
+    
 }
 
 @media (max-width: 700px) {
+
+    /* header - cabeçalho - Celular */
+    .container-header-cabecalho {
+        border-bottom: 1rem solid #b68954;
+    }
+
     .container-div-cabecalho {
     flex-direction: row;
 }
@@ -347,4 +458,104 @@ footer {
     #menu {
         display: block;
     }
+
+    /* Banner Principal - Celular*/
+        
+    .container-section-banner-principal {
+        border-bottom: 1rem solid #b68954;
+        padding: 3rem 0;
+    }
+
+    .container-div-banner-principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .container-div-textos-banner-principal{
+        flex-direction: column;
+        gap: 2.3rem;
+        align-items: center;
+        width: 90%;
+    }
+
+    .container-div-textos-banner-principal h1 {
+        font-size: 2.3rem;
+    }
+
+    .container-div-textos-banner-principal p {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .btn-wpp {
+        font-size: 1.3rem;
+    }
+
+    .btn-wpp:hover {
+        background-color: #b3926c;
+    }
+
+    #estatua-justica{
+        width: 20rem;
+    }
+
+    /* Especialidades - Celular */
+
+    .container-section-especialidades {
+        justify-content: center;
+        padding: 4rem 0;
+    }
+
+    .container-div-especialidades {
+        width: 80%;
+        gap: 5rem;
+    }
+
+    .container-div-especialidades h2 {
+        font-size: 3rem;
+        color: #1a2b4b;
+    }
+
+    .container-cards-especialidades {
+        justify-content: center;
+    }
+
+    .card-especialidades img{
+        width: 4.3rem;
+    }
+
+    /* Quem Somos - Celular */
+
+    .container-section-quem-somos {
+    padding: 5rem 0;
+    }
+
+    #foto-advogado{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .container-div-quem-somos h2 {
+        font-size: 2.3rem;
+    }
+
+    .container-article-quem-somos {
+        font-size: 1.3rem;
+    }
+
+    /* Depoimentos - Celular */
+
+    .container-div-depoimentos {
+        gap: 6em;
+    }
+
+    .container-cards-depoimentos {
+        justify-content: center;
+        gap: 6rem;
+    }
+
+
 }
